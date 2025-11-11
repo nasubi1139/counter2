@@ -1,0 +1,31 @@
+.counter{
+  text-align: center;
+  padding: 20px;
+  border: solid 2px #000;
+}
+.counter-number{
+  font-size: 50px;
+  margin: 0 0 10px;
+}
+/* #js-counter{} */
+
+/*
+button
+*/
+.button{
+  font-size: 20px;
+  padding: 10px 20px;
+  border: 0;
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+.button:hover{
+  opacity: 0.8;
+  transition: opacity .25s;
+}
+/* #js-button{} */
+/* #js-reset-button{} */
