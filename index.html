@@ -11,16 +11,33 @@
     <div class="counter-number" id="js-counter">
       0
     </div>
-    <button type="button" class="button js-button">-</button>
-    <button type="button" class="button js-button">+</button>
-    <button type="button" class="button" id="js-reset-button">Reset</button>
-    <div class="selfset-button">
+    <div class="count-button">
+      <button type="button" class="button js-button">-</button>
+      <button type="button" class="button js-button">+</button>
+      <button type="button" class="button" id="js-reset-button">Reset</button>
+    </div>
+    <div class="arrange">
       <input type="text" id="js-selfset-input">
       <button type="button" class="button" id="js-selfset-button">Set</button>
-    </div>
+      <button type="button" class="button log-button" id="js-log-button">Log</button>
+      </div>
+  </div>
+  <div class="log-table" id="js-log-table">
+    
+  </div>
+  <div>
+    <p>
+      Set：入力した数字からカウントスタート<br>
+      Log：履歴を残す
+    </p>
+    <p>コメント：多少見た目揃えれなかったので、もし時間あれば軽く改善点教えてください。。。<br>
+      ①最初のログと２回目以降のログ表示<br>
+      ②inputの見た目(widthとheight?)
+    </p>
   </div>
   <script src="./js/counter.js"></script>
   <script src="./js/reset.js"></script>
+  <script src="./js/log.js"></script>
   <script src="./js/selfset.js"></script>
 </body>
 </html>
