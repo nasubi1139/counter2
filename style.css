@@ -12,6 +12,7 @@
 /*
 button
 */
+/* .count-button{} */
 .button{
   font-size: 20px;
   padding: 10px 20px;
@@ -29,3 +30,32 @@ button
 }
 /* #js-button{} */
 /* #js-reset-button{} */
+
+/*
+count-log
+*/
+.count-log{
+  margin: 5px;
+}
+.log{}
+/* #js-log{} */
+
+/*
+log-table
+*/
+#log-table{
+  text-align: center;
+  margin: 20px 0 0 0;
+  border: solid 2px #000;
+  /* display: none; */
+}
+.log{
+  font-size: 20px;
+  padding: 10px;
+  border-bottom:solid 2px #333;
+  margin: 0 30px 5px 30px;
+  word-spacing: 20px;
+}
+.log > span {
+  margin: 0 0 0 100px;
+}
