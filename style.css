@@ -43,11 +43,12 @@ count-log
 /*
 log-table
 */
-#log-table{
+/* .log-table{} */
+#js-log-table{
   text-align: center;
   margin: 20px 0 0 0;
   border: solid 2px #000;
-  /* display: none; */
+  display: none;
 }
 .log{
   font-size: 20px;
